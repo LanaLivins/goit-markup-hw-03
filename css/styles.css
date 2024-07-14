@@ -7,10 +7,53 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  padding: 24px;
+  gap: 40px;
+}
+
+.header-logo-first {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .logo-header {
@@ -36,6 +79,8 @@ a {
 }
 
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -43,15 +88,24 @@ a {
   color: #2e2f42;
 }
 
+.contacts-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .page-hero-background {
