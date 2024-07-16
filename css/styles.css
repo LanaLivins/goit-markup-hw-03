@@ -19,6 +19,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -35,7 +36,7 @@ a {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-div {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -110,15 +111,20 @@ a {
 
 .page-hero-background {
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  padding: 188px;
+  align-items: center;
 }
 
 .page-hero-text {
-  font-weight: 700;
-  font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
   color: #fff;
+  display: flex;
+  text-align: center;
 }
 
 .page-hero-button {
@@ -129,6 +135,11 @@ a {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: flex;
+  margin-top: 48px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
 }
 
 .page-hero-button:hover,
@@ -140,12 +151,28 @@ a {
   background-color: #404bbf;
 }
 
+.page-feature {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 120px 0;
+}
+
+.page-feature-list {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  padding-right: 24px;
+}
+
 .feature-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .feature-title-text {
@@ -154,6 +181,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: flex;
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .page-team {
