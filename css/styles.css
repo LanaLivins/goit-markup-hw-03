@@ -270,6 +270,10 @@ a {
   align-items: center;
 }
 
+.page-portfolio {
+  display: flex;
+}
+
 .portfolio-text {
   font-weight: 700;
   font-size: 36px;
@@ -278,9 +282,34 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
-.portfolio-li-text {
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.portfolio-li-text-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  width: 360px;
+  height: 120px;
+}
+
+.po .portfolio-li-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -294,6 +323,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: flex;
 }
 
 .page-footer {
