@@ -202,6 +202,10 @@ a {
   background-color: #ffffff;
 }
 
+.img-block {
+  display: block;
+}
+
 .team-text {
   font-weight: 700;
   font-size: 36px;
