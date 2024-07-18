@@ -155,6 +155,7 @@ a {
 }
 
 .section-page-feature {
+  display: flex;
   padding: 120px 0;
 }
 
