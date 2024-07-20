@@ -33,6 +33,10 @@ a {
   margin: 0 auto;
 }
 
+img {
+  display: block;
+}
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
