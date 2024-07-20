@@ -284,7 +284,6 @@ a {
   margin-bottom: 72px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8px;
 }
 
 .portfolio-list {
@@ -292,6 +291,10 @@ a {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+}
+
+.portfolio-list-li {
+  display: block;
 }
 
 .portfolio-li-text {
@@ -331,7 +334,7 @@ a {
 
 .page-footer {
   background-color: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .footer-text {
