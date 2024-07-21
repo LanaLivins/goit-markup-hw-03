@@ -141,6 +141,7 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
